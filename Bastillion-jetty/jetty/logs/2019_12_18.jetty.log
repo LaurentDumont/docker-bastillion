@@ -1,0 +1,22 @@
+2019-12-18 14:19:44.384:WARN:oejx.XmlConfiguration:main: Deprecated constructor public org.eclipse.jetty.util.ssl.SslContextFactory() in file:///opt/bastillion/jetty/etc/jetty-ssl-context.xml
+2019-12-18 14:19:44.391:WARN:oejx.XmlConfiguration:main: Deprecated method public void org.eclipse.jetty.util.ssl.SslContextFactory.setNeedClientAuth(boolean) in file:///opt/bastillion/jetty/etc/jetty-ssl-context.xml
+2019-12-18 14:19:44.392:WARN:oejx.XmlConfiguration:main: Deprecated method public void org.eclipse.jetty.util.ssl.SslContextFactory.setWantClientAuth(boolean) in file:///opt/bastillion/jetty/etc/jetty-ssl-context.xml
+2019-12-18 14:19:44.416:INFO:oejs.Server:main: jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 13-ea+32
+2019-12-18 14:19:44.436:INFO:oejdp.ScanningAppProvider:main: Deployment monitor [file:///opt/bastillion/jetty/webapps/] at interval 1
+2019-12-18 14:19:44.910:INFO:oeja.AnnotationConfiguration:main: Scanning elapsed time=257ms
+2019-12-18 14:19:45.141:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2019-12-18 14:19:45.141:INFO:oejs.session:main: No SessionScavenger set, using defaults
+2019-12-18 14:19:45.142:INFO:oejs.session:main: node0 Scavenging every 660000ms
+Setting Bastillion SSH public/private key pair
+Finger print: bc:19:69:b3:56:a6:8c:56:9e:34:35:fd:a9:e4:8c:9b
+Bastillion Generated Global Public Key:
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdkbnJoaN6xjsCYy22i24cJoHayePWyeDBDvSu+K4ORx0l4UofYYY7+fuhG50OpHVoTOABIS+lK6eitTJ86r2Whn4hI4FHl9hMy6jIQNT9k5KquGe4mqSIq0p9qZqJbjOv0FKXUbIvK4gFXFZV2wU48+Hed8lWzg3mF4cZDWonvmeZVbnJGwPY7irm8IXddFdC8ekgQoYQRVito7H+GGbEVhXTpO8pNm26/0Ju4c8XsW9y2Z+ig7MEpudEIumqjdfddCBWlTIQpPQE1c7v+HyEVKH913j9GOAH+a1+m3WK4otHZgmKli6AIGElpeEG7YRMLkEVcO/Px18OA7S5Ocrn bastillion@global_key
+
+2019-12-18 14:19:47.133:INFO:oejsh.ContextHandler:main: Started o.e.j.w.WebAppContext@710f4dc7{/,file:///opt/bastillion/jetty/bastillion/,AVAILABLE}{/opt/bastillion/jetty/bastillion}
+2019-12-18 14:19:47.159:INFO:oejus.SslContextFactory:main: x509=X509@2125ad3(jetty,h=[],w=[]) for SslContextFactory@7a5b769b[provider=null,keyStore=file:///opt/bastillion/jetty/etc/keystore,trustStore=file:///opt/bastillion/jetty/etc/keystore]
+2019-12-18 14:19:47.219:INFO:oejs.AbstractConnector:main: Started ServerConnector@745c2004{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+2019-12-18 14:19:47.219:INFO:oejs.Server:main: Started @3609ms
+2019-12-18 14:19:57,614 INFO  LoginAudit - admin (172.17.0.1) - Authentication Success
+2019-12-18 14:32:41.077:INFO:oejs.AbstractConnector:Thread-1: Stopped ServerConnector@745c2004{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+2019-12-18 14:32:41.077:INFO:oejs.session:Thread-1: node0 Stopped scavenging
+2019-12-18 14:32:41.092:INFO:oejsh.ContextHandler:Thread-1: Stopped o.e.j.w.WebAppContext@710f4dc7{/,null,UNAVAILABLE}{/opt/bastillion/jetty/bastillion}
